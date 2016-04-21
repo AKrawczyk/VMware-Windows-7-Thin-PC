@@ -1,0 +1,45 @@
+JCOS VMware View Thin Client
+Created by James Cuadros
+Date 5/9/12
+
+-------------------------
+Installation Instructions
+
+Step 1.) Make sure to place the "JCOS" folder at the root of the C drive, this is very important!
+
+Step 2.) Edit "InstallJCOS.cmd" and enter WIndows 7 Thin PC MAC activation key
+
+Step 3.) Skip step 4 and 5 if you wish to use sysprep
+
+Step 4.) Right click on "InstallJCOS.cmd" and Run as Administrator
+
+Step 5.) Sit back and enjoy the show
+
+-------------------------
+Sysprep Installation Instruction
+
+Step 1.) Create a local Admin account called "setup" with password "setup"
+
+Step 2.) Copy "unattend.xml" to c:\windows\system32\sysprep
+
+Step 3.) Create folder in c:\windows\setup called "scripts"
+
+Step 4.) Copy "SetupComplete.cmd" to c:\windows\setup\scripts
+
+Step 5.) Run "cmd" as Administrator
+
+Step 6.) Goto c:\windows\system32\sysprep
+
+Step 7.) Enter "sysprep /generalize /oobe /shutdown /unattend:c:\windows\system32\sysprep\unattend.xml"
+
+Step 8.) Allow the PC to shutdown
+
+Step 9.) Image the PC
+
+Step 10.) Write Image to new PC
+
+Step 11.) Enter PC Name
+
+Step 12.) Login using account "setup" passord "setup"
+
+Step 13.) Sit back and enjoy the show

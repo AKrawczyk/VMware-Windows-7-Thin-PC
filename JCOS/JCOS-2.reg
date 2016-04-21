@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"Shell"="wscript C:\\JCOS\\launchview.vbs"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"WallPaper"=""
+"OriginalWallPaper"=""
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableTaskMgr"="1"
+"DisableLockWorkstation"="1"
+"DisableChangePassword"="1"
