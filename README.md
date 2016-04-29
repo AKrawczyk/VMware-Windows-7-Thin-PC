@@ -9,6 +9,7 @@ VMWare Horizon View Clinet via Windows 7 Thin PC
 	4. Create login Account
 		a. Username = setup
 		b. Password = setup
+		c. Make sure 'setup' user account password is set to never expire
 	5. Login to 'setup' account
 	6. Perform Windows Updates
 	7. Download Horizon View Client latest version
@@ -82,9 +83,10 @@ VMWare Horizon View Clinet via Windows 7 Thin PC
 	9. Logon to 'setup' account
 		a. Right click 'Computer' -> Manage
 		b. Delete 'user' logon account
-		c. Right click 'Computer' -> Properties
-		d. Click 'Advanced System Settings' -> 'User Profiles' -> 'Settings…'
-		e. Delete 'UNKNOW Accounts'
+		c. Make sure 'setup' user account password is set to never expire
+		d. Right click 'Computer' -> Properties
+		e. Click 'Advanced System Settings' -> 'User Profiles' -> 'Settings…'
+		f. Delete 'UNKNOW Accounts'
 	10. Download Sysprep configuration files
 		a. Sysprep instructions
 			i. Copy "unattend.xml" to c:\windows\system32\sysprep
