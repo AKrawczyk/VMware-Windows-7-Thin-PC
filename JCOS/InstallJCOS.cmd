@@ -2,8 +2,9 @@
 @rem by James Cuadros
 
 @rem Add a user called "user" with the password "user"
-net user user user /ADD /PASSWORDCHG:NO /EXPIRES:never /FULLNAME:"VMware View User"
+net user user user /ADD /PASSWORDCHG:NO /FULLNAME:"VMware View User"
 net localgroup administrators /add user
+wmic useraccount where "Name='user'" set PasswordExpires=FALSE
 
 @rem Add the following registry key changes:
 regedit /s C:\JCOS\JCOS-1.reg
